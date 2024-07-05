@@ -4,7 +4,7 @@ import ProjectCard from "../sub/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className=" relative flex flex-col h-full ">
+    <div className=" relative flex flex-col h-full mt-[30rem] md:mt-0 ">
       <video
         autoPlay
         muted
@@ -18,7 +18,7 @@ const Projects = () => {
           My Project
         </h1>
         <div className=" h-full w-full grid grid-cols-12 gap-2">
-          <div className=" col-span-4">
+          <div className="col-span-12  md:col-span-4">
             <ProjectCard
               src="/projects/coffeeshop.png"
               title="Coffee Shop Website"
@@ -26,7 +26,7 @@ const Projects = () => {
               url="https://ayuwidyainggit.github.io/WebsiteCoffeshop/"
             />
           </div>
-          <div className=" col-span-4">
+          <div className=" col-span-12  md:col-span-4">
             <ProjectCard
               src="/projects/saas.png"
               title="Saas Website"
@@ -34,28 +34,28 @@ const Projects = () => {
               url="https://ayuwidyainggit.github.io/frontend-mysaas/"
             />
           </div>
-          <div className=" col-span-4">
+          <div className=" col-span-12  md:col-span-4">
             <ProjectCard
               src="/projects/khadijah_market.png"
               title="Khadija Market"
               description="I built a website for customers, customers can view products, add to cart, and checkout products. Then I built a web application for the store admin and for admin members using Reactjs and Tailwind CSS. Build React js, CSS, Tailwind CSS, Redux"
             />
           </div>
-          <div className=" col-span-4">
+          <div className=" col-span-12  md:col-span-4">
             <ProjectCard
               src="/projects/khadijah_web.png"
               title="Admin Khadijah Market"
               description="I built a website for customers, customers can view products, add to cart, and checkout products. Then I built a web application for the store admin and for admin members using Reactjs and Tailwind CSS. Build React js, CSS, Tailwind CSS, Redux"
             />
           </div>
-          <div className=" col-span-4">
+          <div className=" col-span-12  md:col-span-4">
             <ProjectCard
               src="/projects/LPPD_adm.png"
               title="Website Tapemansel LPPD"
               description="LPPD web contains articles, services, articles, and other information. Build by React js, Tailwind CSS, Material UI, Redux, Redux Thunk"
             />
           </div>
-          <div className=" col-span-4">
+          <div className=" col-span-12  md:col-span-4">
             <ProjectCard
               src="/projects/LPPD_web.png"
               title="Admin Tapemansel LPPD"
