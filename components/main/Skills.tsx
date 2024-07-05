@@ -5,7 +5,7 @@ import SkillText from "../sub/SkillText";
 
 const Skills = () => {
   return (
-    <div className=" relative flex flex-col h-screen  z-10 ">
+    <div className=" relative flex flex-col h-screen  z-10  px-4 md:px-0">
       <video
         autoPlay
         muted
