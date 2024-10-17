@@ -8,7 +8,7 @@ import Image from "next/image";
 const HeroContent = () => {
   const handleContactClick = () => {
     // Ganti dengan nomor telepon Anda
-    const phoneNumber = "087719634477";
+    const phoneNumber = "087832171593";
     const message = "Halo, saya ingin tahu lebih banyak tentang Anda!";
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
       message
